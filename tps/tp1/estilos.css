@@ -1,0 +1,84 @@
+*{
+	box-sizing: border-box;
+}
+html, body{
+	font-size: 18px;
+	height: 100%;
+	margin: 0;
+	overflow-y: hidden;
+}
+nav{
+	background-color: #388E3C;
+	float: left;
+	height: 100%;
+	width: 200px;
+}
+nav h1{
+	color: #212121;
+	text-align: center;
+}
+nav .chat{
+	background-color: #4CAF50;
+	border-radius: 10px;
+	height: 50%;
+	margin-top:50%; 
+	margin-left: 10px;
+	width: 180px;
+}
+nav .chat .chatVentana h3{
+	text-align: center;
+	padding: 5%;
+	width: 100%;
+}
+nav .chat .chatVentana ul{
+	padding: 0;
+}
+nav .chat .chatVentana ul li{
+	cursor: pointer;
+	list-style: none;
+	margin: .15em;
+	padding: .35em;
+	border-radius: 5px;
+}
+nav .chat .chatVentana ul li:after{
+	float: right;
+	content: "°";
+}
+nav .chat .chatVentana ul li:hover{
+	background-color: #C8E6C9;
+}
+.contenedor{
+	background-color: #4CAF50;
+	height: 100%;
+	z-index: 5;
+	overflow: hidden;
+}
+.contenedor .secciones{
+	/*background-color: #C8E6C9;*/
+	margin-top: 10%;
+	height: 70%;
+	width: 100%;
+	overflow-x: scroll;
+	display: flex;
+}
+.contenedor .secciones section{
+
+	background-color: rgba(182, 182, 182, 0.3);
+	border-radius: 10px;
+	display: inline-block;
+	height: 80%;
+	margin-top: 5%;
+	margin-left: 1%;
+	min-width: 25%;
+	width: 30%
+}
+.contenedor .secciones section:hover{
+	background-color: rgba(182, 182, 182, 1);
+}
+.contenedor .secciones section h2{
+	padding: 10px;
+}
+.contenedor .secciones section p{
+	padding: 5px;
+} 
+

@@ -1,0 +1,21 @@
+*{
+	box-sizing: border-box;
+}
+section{
+	margin: 0 10%;
+	width: 80%;
+	background-color: #1976d2;
+}
+article{
+	border-radius: 5%;
+	float: left;
+	margin:1%;
+	padding: .5%;
+	width: 30%;
+}
+article:nth-child(even){
+	background-color: #ffc400;
+}
+article:nth-child(odd){
+	background-color: #b2ff59;
+}

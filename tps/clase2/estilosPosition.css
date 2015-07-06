@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	border: solid 5px #ccc;
+	position: relative;
+}
+.barraLateral{
+	width: 20%;
+	border: solid red 2px;
+	position: absolute;
+}
+.contenedor{
+	width: 80%;
+	border: solid green 2px;
+	position: relative;
+	left: 20%;
+}
+.otro{
+	width: 100%;
+	border:solid blue 2px;
+}
+
+
+/*--------------------------------DERECHA-------------------*/
+.barraLateralDer{
+	width: 20%;
+	border: solid red 2px;
+	position: absolute;
+	right: 0px;
+}
+.contenedorDer{
+	width: 80%;
+	border: solid green 2px;
+	position: relative; ;
+	left: 0px;
+	right: 20%;
+}

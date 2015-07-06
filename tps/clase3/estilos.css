@@ -1,0 +1,31 @@
+*{
+	box-sizing: border-box;
+}
+section{
+	margin: 0 10%;
+	width: 80%;
+	background-color: #1976d2;
+}
+article{
+	border-radius: 10px;
+	border: solid red 2px;
+	display: inline-block;
+	margin: 1%;
+	padding: .5%;
+	width: 30%;
+}
+article:nth-child(odd){
+	background-color: #b2ff59;
+}
+article:nth-child(even){
+	background-color: #ffc400;
+}
+
+p{
+	color: green;
+}
+
+.area1, .area2{
+	display: inline-block;
+	width: 47%;
+}

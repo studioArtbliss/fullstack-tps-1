@@ -5,14 +5,14 @@ var cadena = "Cadena de texto";
 var tamanoCadena = cadena.length;
 var cadenaInvertida = "";
 
-//se ejecuta el while usando como parametro el tamaño de la cadena y mediante el metodo charAt se invirte caracter por caracter
+//se ejecuta el while usando como parametro el tamaño de la cadena y mediante el metodo charAt se selecciona caracter por caracter
 while (tamanoCadena>=0) {
 	cadenaInvertida = cadenaInvertida + cadena.charAt(tamanoCadena);
 	tamanoCadena--;
 }
 //
-console.log(cadena);
-console.log(cadenaInvertida);
+console.log("Strng Original: "+cadena);
+console.log("String Resultado: "+cadenaInvertida);
 
 //Segunda parte del TP 3 Invertir orden del Array sin utilizar "reverse"
 
@@ -32,5 +32,5 @@ while (tamañoArrayAString>=0) {
 }
 //se vuelve a convertir el string a array
 nuevoArrayInvertido = stringInvertido.split(",");
-console.log(nuevoArray);
-console.log(nuevoArrayInvertido);
+console.log("Array Original"+nuevoArray);
+console.log("Array Invertido"+nuevoArrayInvertido);

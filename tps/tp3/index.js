@@ -11,8 +11,8 @@ while (tamanoCadena>=0) {
 	tamanoCadena--;
 }
 //
-console.log("Strng Original: "+cadena);
-console.log("String Resultado: "+cadenaInvertida);
+console.log("Strng Original: " + cadena);
+console.log("String Resultado: " + cadenaInvertida);
 
 //Segunda parte del TP 3 Invertir orden del Array sin utilizar "reverse"
 
@@ -32,5 +32,5 @@ while (tamañoArrayAString>=0) {
 }
 //se vuelve a convertir el string a array
 nuevoArrayInvertido = stringInvertido.split(",");
-console.log("Array Original"+nuevoArray);
-console.log("Array Invertido"+nuevoArrayInvertido);
+console.log("Array Original: "+ nuevoArray);
+console.log("Array Invertido: "+ nuevoArrayInvertido);

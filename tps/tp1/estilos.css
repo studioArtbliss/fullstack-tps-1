@@ -48,7 +48,7 @@ nav .chat .chatVentana ul li:hover{
 	background-color: #C8E6C9;
 }
 .contenedor{
-	background-color: #4CAF50;
+	background-color: red;
 	height: 100%;
 	z-index: 5;
 	overflow: hidden;
@@ -81,4 +81,3 @@ nav .chat .chatVentana ul li:hover{
 .contenedor .secciones section p{
 	padding: 5px;
 } 
-
